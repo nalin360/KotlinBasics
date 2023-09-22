@@ -1,0 +1,14 @@
+fun main() {
+    println("Enter a number :")
+    var thenumbers = readln().toInt()
+    var result = 1
+    if (thenumbers < 0)
+    {
+        println("$thenumbers is less 0")
+    }else{
+        for (i in 1..thenumbers){
+            result *= i
+        }
+    }
+
+}

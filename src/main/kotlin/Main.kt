@@ -30,6 +30,16 @@ fun main(){
         println(n1+n2)
     }
     addition(n1,n2)
+    for (i in 1..5) {
+        println("Current number is $i")
+    }
+    var number = 1
+
+    do {
+        println("Number: $number")
+        number++
+    } while (number <= 3)
+
 }
 
 
